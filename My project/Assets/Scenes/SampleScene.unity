@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &333906719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,9 +148,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80a514df22fac41e1a77f639aac49153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  depth: 6
+  depth: 7
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  leafMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 59e1fc5447730457a8ff23cdeaac008d, type: 2}
+  gradientA:
+    serializedVersion: 2
+    key0: {r: 0.68235296, g: 0.2627451, b: 0.21176472, a: 0.3137255}
+    key1: {r: 1, g: 0.9614235, b: 0, a: 0.3529412}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  gradientB:
+    serializedVersion: 2
+    key0: {r: 0.2924528, g: 0.124192305, b: 0, a: 0.54901963}
+    key1: {r: 0.534441, g: 1, b: 0, a: 0.627451}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  leafColorA: {r: 0.20014974, g: 0.6603774, b: 0, a: 0}
+  leafColorB: {r: 0.47984263, g: 0, b: 0.8584906, a: 0}
+  maxSagAngleA: 15
+  maxSagAngleB: 25
+  spinSpeedA: 20
+  spinSpeedB: 25
+  reverseSpinChance: 0.25
 --- !u!4 &333906720
 Transform:
   m_ObjectHideFlags: 0
@@ -615,7 +683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &778085246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,7 +699,7 @@ MonoBehaviour:
   computeShader: {fileID: 7200000, guid: 79994119222156f488752ddc20522967, type: 3}
   material: {fileID: 2100000, guid: 7b785556337a7984c9f15ca69ab3f4d6, type: 2}
   mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  resolution: 200
+  resolution: 232
   function: 0
   transitionMode: 0
   functionDuration: 1
@@ -817,8 +885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27aa970be765b4e839cf3fd7b0ad1fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointPrefab: {fileID: 0}
-  resolution: 10
+  pointPrefab: {fileID: 5546373101501554926, guid: c5b16f2079ed24b1a842c19fa3d26d49, type: 3}
+  resolution: 100
   function: 0
   transitionMode: 0
   functionDuration: 1
