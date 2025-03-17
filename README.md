@@ -65,6 +65,20 @@ This repository showcases my Unity development skills through two cutting-edge s
 
 ---
 
+## Project Pictures
+
+![detailed-sphere](https://github.com/user-attachments/assets/9119987e-9c0c-48a0-862c-9a5ab788385a)
+
+![detailed-torus](https://github.com/user-attachments/assets/f49ddcb5-34ea-448a-bda9-94a1dc450e78)
+
+https://github.com/user-attachments/assets/15d2ba39-8afe-4f68-8cf0-d0b0e703ac62
+
+![variable-max-sage-angle](https://github.com/user-attachments/assets/742827cc-e65a-4eb7-9a5a-2033b49f074a)
+
+https://github.com/user-attachments/assets/76f683bb-1d17-4598-944f-39300bbf7b1d
+
+---
+
 ## Skills Demonstrated
 
 - **GPU Compute Shaders:**  
@@ -89,3 +103,9 @@ This repository showcases my Unity development skills through two cutting-edge s
 This repository is a showcase of Unity techniques for real-time visualizations. By combining compute shaders, Burst-compiled jobs, and procedural instancing, it demonstrates a robust and high-performance approach to both animated graph rendering and fractal generation. This project not only highlights my technical abilities in Unity but also my commitment to optimizing performance and creating visually compelling interactive experiences.
 
 This project represents the culmination of my past two months of learning, applying everything from GPU programming to multithreading techniques in Unity to create high-performance visualizations.
+
+---
+
+## Acknowledgements
+
+This project was created with the help of tutorials from [CatLikeCoding](https://catlikecoding.com/) by Jasper Flick. Their in-depth explanations and guidance were invaluable in understanding procedural generation, Unity's Burst compiler, and GPU instancing.
